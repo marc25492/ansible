@@ -1,0 +1,6 @@
+[CI_Server]
+CI_Server ansible_host=52.56.128.62
+[Web]
+Web ansible_host=52.56.150.233
+[all:vars]
+ansible_user=ubuntu

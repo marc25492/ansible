@@ -1,0 +1,5 @@
+---
+- hosts: CI_Servers
+  become: yes
+  roles:
+    - jenkins
