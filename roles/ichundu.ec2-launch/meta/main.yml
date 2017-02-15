@@ -1,0 +1,16 @@
+galaxy_info:
+  author: ichundu
+  description: ansible enthusiast
+
+  license: license (GPLv2, CC-BY, etc)
+
+  platforms:
+    - name: Any
+
+  min_ansible_version: 2.0
+
+  galaxy_tags:
+    - ec2
+    - aws
+    - launch
+    - provision

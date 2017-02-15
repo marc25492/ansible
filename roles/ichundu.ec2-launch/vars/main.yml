@@ -1,0 +1,13 @@
+---
+# vars file for ec2-launch
+ec2_access_key: "AKIAJP7QHWB6RAHZO3OQ" 
+ec2_secret_key: "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"
+ec2_launch_count: "1"
+ec2_launch_id: "002"
+ec2_launch_ami_id: "ami-ede2e889"
+ec2_launch_group: "default" 
+ec2_launch_tag_name: "testAnsible"
+ec2_launch_tag_class: "ansibleClass"
+ec2_launch_instance_type: "t2.micro"
+ec2_launch_key: "ubuntuAnsible"
+ec2_launch_region: "eu-west-2"

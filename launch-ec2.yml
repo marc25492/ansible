@@ -1,0 +1,8 @@
+---
+- name: Launch or replace EC2 instances
+  hosts: local
+  connection: local
+  gather_facts: no
+  become: yes
+  roles:
+    - role: ichundu.ec2-launch
