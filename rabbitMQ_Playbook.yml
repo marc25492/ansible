@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  remote_user: ubuntu
+  roles: 
+    - geerlingguy.java
+
+- hosts: rabbitMQ
+  become: yes
+  remote_user: ubuntu
+  roles:
+    - Stouts.rabbitmq
