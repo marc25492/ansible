@@ -1,0 +1,3 @@
+---
+ - name: restart nexus service
+   service: name=nexus state=restarted

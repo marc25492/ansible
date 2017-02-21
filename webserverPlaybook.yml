@@ -1,5 +1,20 @@
 ---
-- hosts: webservers
+- hosts: all
   become: yes
+  remote_user: ubuntu
+  roles: 
+    - geerlingguy.java
+
+- hosts: ci_server
+  become: yes
+  remote_user: ubuntu
   roles:
     - jenkinsRole
+    - tecris.maven
+
+- hosts: webserver
+  become: yes
+  remote_user: ubuntu
+  roles:
+    - grycap.tomcat
+    - olo-dw.nexus
