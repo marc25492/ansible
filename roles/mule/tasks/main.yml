@@ -7,7 +7,7 @@
   sudo: true
 
 - name: Unpack mule
-  unarchive::
+  unarchive:
     src= "mule-ee-distribution-standalone-${RUNTIME_VERSION}.zip"
     dest= "/opt"
     force=no
